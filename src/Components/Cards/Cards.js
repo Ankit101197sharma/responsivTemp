@@ -5,7 +5,7 @@ import classes from "./Cards.module.css"
  function Cards() {
   return (
       <>
-    <div style={{backgroundColor:'#292d33', width:'100%', height:'100%' , textAlign:'center'}}>
+    <div className={classes.cards} >
         <h1 className={classes.mainHeading}>Blog Posts</h1>
         <div className={classes.mainDiv}>
             
@@ -16,7 +16,7 @@ import classes from "./Cards.module.css"
                             <div className={classes.aCard}>
                                 <img  className={classes.imgd} src={item.thumbnail} alt="" />
                                 <h4 className={classes.title}><a href="/">{item.imgHeading}</a></h4>
-                                <p className={classes.text}>{item.cardPara}</p>
+                                <p className={classes.para} >{item.cardPara}</p>
                                 <a className={classes.readBtn} href="/">{item.readMore}</a>
 
                             </div>
@@ -29,25 +29,34 @@ import classes from "./Cards.module.css"
         </div>
         <button className={classes.lBtn}>Learn More</button>
 
-        <div >
+        <div style={{paddingBottom:"30px"}} >
             <footer className={classes.footer}>
                 <div className={classes.footerDiv}>
-                    <div style={{padding:"30px"}}>
-                        <h4>Headline</h4>
-                        <p>Sample footer text</p>
+                    <div >
+                        <h5>Headline</h5>
+                        <p >Sample footer text</p>
                     </div>
-                    <div style={{padding:"30px"}}>
-                    <h4>Headline</h4>
+                    <div >
+                    <h5>Headline</h5>
                         <p>Sample footer text</p>
                     </div >
-                    <div style={{padding:"30px", textAlign:'left'}}>
-                    <h4>Headline</h4>
+                    <div >
+                    <h5>Headline</h5>
                         <p>Sample footer text</p>
                     </div>
+                   
+                </div>
+                <div className={classes.hr}> 
+                <hr />
+                </div>
+                <div >
+                    <p  className={classes.para1}>Sample footer text</p>
+
                 </div>
             </footer>
+            
     </div>
-    <hr />
+    
     </div>
     
   

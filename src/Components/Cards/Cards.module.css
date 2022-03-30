@@ -1,9 +1,15 @@
+.cards{
+    background-color:#292d33;
+    width:100%;
+    height:100%;
+    text-align:center;
+}
 .imgGrid{
     width: calc(33.3% - 22px);
     margin: 10px;
     justify-content: center;
     
-    
+    height: 420px;
     background-color: #ffffff;
     
 }
@@ -11,33 +17,35 @@
 .mainDiv{
     display: flex;
     flex-wrap: wrap;
-    padding: 64px;
+    /* padding: 64px; */
     flex-direction: row;
     justify-content: center;
     align-items: center;
     max-width: 80%;
     width: 100%;
     margin: auto;
+    
    
     
 
 }
 .aCard{
-    /* height: 100%; */
+    
     max-width: 990px;
 }
 .imgd{
     width: 100%;
-    /* height: 206px; */
+    
     
     
 }
 .mainHeading{
     line-height: 1.1;
     color: #fff;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 4rem;
-    font-family: Oswald, sans-serif ;
+    font-family: 'Playfair Display',serif;
+    font-family: Oswald, sans-serif !important;
     margin: auto;
     padding: 18px;
 }
@@ -57,10 +65,11 @@
 .readBtn{
     text-decoration: none;
     color: #000;
-    letter-spacing: 1px;
-    margin: 17px auto 0;
-    padding: 0;
+   letter-spacing: 1px;
+    
+   
 }
+
 .lBtn{
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -80,10 +89,15 @@
     justify-items: left;
     
 }
-hr{
-    color: #ccc;
-    border: none;
-    border: 0px solid #ccc;
+.hr{
+    height: 2px;
+    transform-origin: left center 0px;
+    margin: 22px auto 0;
+   border-width: 1px;
+   border-color: #ccc;
+   border: 1px solid #ccc;
+   width: 100%;
+
 }
 .footerDiv{
     display: flex;
@@ -94,8 +108,34 @@ hr{
   font-family: 'Playfair Display',serif;
   text-align: left;
   width: 100%;
+   padding: 24px;
+}
+.footerDiv1{
+    
+    justify-content: center;
+    color: #fff;
+  margin: auto;
+  font-family: 'Playfair Display',serif;
+  text-align: left;
+  width: 100%;
 
 }
+
+.para{
+   margin: 20px 14px 0;
+    font-size: 16px;
+    /* font-family: 'Source Sans Pro',sans-serif; */
+    padding: 18px;
+}
+.para1{
+    margin: 20px 0px 0;
+     font-size: 14px;
+     /* font-family: 'Source Sans Pro',sans-serif; */
+     padding: 14px;
+     color: #fff;
+ }
+
+
 
 @media (max-width: 990px) {
     .imgGrid {
