@@ -1,0 +1,140 @@
+.imgGrid{
+    width: calc(33.3% - 22px);
+    margin: 10px;
+    justify-content: center;
+    
+    
+    background-color: #ffffff;
+    
+}
+
+.mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 64px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    width: 100%;
+    margin: auto;
+   
+    
+
+}
+.aCard{
+    /* height: 100%; */
+    max-width: 990px;
+}
+.imgd{
+    width: 100%;
+    /* height: 206px; */
+    
+    
+}
+.mainHeading{
+    line-height: 1.1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 4rem;
+    font-family: Oswald, sans-serif ;
+    margin: auto;
+    padding: 18px;
+}
+.title{
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display',serif;
+    
+}
+.title a{
+    text-decoration: none;
+    color: #000;
+}
+.readBtn{
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 1px;
+    margin: 17px auto 0;
+    padding: 0;
+}
+.lBtn{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-style: solid;
+    margin: 30px auto 60px;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+    background-color: transparent !important;
+    padding: 10px 30px;
+    text-align: center;
+}
+.footer{
+    background-color: #000;
+    padding: 24px;
+    margin: auto;
+    width: 100%;
+    justify-items: left;
+    
+}
+hr{
+    color: #ccc;
+    border: none;
+    border: 0px solid #ccc;
+}
+.footerDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: #fff;
+  /* margin: auto; */
+  font-family: 'Playfair Display',serif;
+  text-align: left;
+  width: 100%;
+
+}
+
+@media (max-width: 990px) {
+    .imgGrid {
+      width: calc(33.33% - 22px)
+    }
+    
+  }
+  
+  @media (max-width: 768px) {
+    .imgGrid{
+      width: calc(50% - 22px);
+    }
+    
+  }
+  
+  @media (max-width: 400px) {
+    .imgGrid {
+      width: 100% ;
+    }
+    .footer{
+        width: (100%) ;
+    }
+  }
+  @media (max-width: 900px){
+    .footerDiv{
+        width: calc(33.3% - 22px);
+        justify-content: left;
+    }
+  }
+  @media (max-width: 768px ){
+    .footerDiv{
+        width: calc(50% - 22px);
+        justify-content: start;
+    }
+  }
+  @media (max-width: 400px){
+    .footerDiv{
+        width: (100%);
+       justify-content: left;
+        
+    }
+  }
