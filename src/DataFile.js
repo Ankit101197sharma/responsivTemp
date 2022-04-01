@@ -12,7 +12,7 @@ export const webData = [
         "thumbnail":'https://images02.nicepage.com/c461c07a441a5d220e8feb1a/ee67809c214f50feafcc84b6/a-min.jpg?version=',
         "imgHeading":'Post 2 Headline',
         "cardPara": "Sample small text. Lorem ipsum dolor sit amet.",
-        "readMore": "READ MORE"
+        "readMore": "READ MORE"    
 
     },
     {
